@@ -134,7 +134,7 @@ header a:hover {
 }
 
 .contact {
-    background: #e09300;
+    background: #bf5700;
 }
 
 .contact i {
@@ -142,21 +142,21 @@ header a:hover {
 }
 
 .interests {
-    background: #46941e;
+    background: navy;
 }
 
 .interests i {
-    color: #85eb66
+    color: rgb(88, 88, 245)
 }
 
 /* about me */
 
 .pic img{
     float: left;
-    width: 150px;
-    height: 160px;
+    width: 200px;
+    height: 210px;
     padding-right: 20px;
-    padding-bottom: 3px;
+    padding-bottom: 1px;
 }
 
 /* footer */
