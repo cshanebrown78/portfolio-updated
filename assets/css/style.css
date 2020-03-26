@@ -105,6 +105,10 @@ header a:hover {
     
 }
 
+.card {
+    cursor: pointer;
+}
+
 .card i {
     font-size: 80px;
 }
