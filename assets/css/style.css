@@ -196,10 +196,16 @@ header a:hover {
     bottom: 10px;
     color: white;
     background: rgb(53, 53, 56);
-    opacity: 90%;
+    opacity: 85%;
     padding: 20px;
     text-align: center;
 }
+
+#pictext1 strong {
+    font-size: 26px;
+}
+
+
 
 #pictext1 a {
     color: #ffffff
