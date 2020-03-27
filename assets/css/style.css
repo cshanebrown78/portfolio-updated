@@ -163,6 +163,48 @@ header a:hover {
     padding-bottom: 1px;
 }
 
+/* portfolio */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 30px 30px 0;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+    
+}
+
+#pic1 {
+    float: left;
+    position: relative;
+    z-index: 10%;
+}
+
+#pic1 img {
+    z-index: 10;
+    width: 100%;
+    
+}
+
+#pictext1 {
+    width: 100%;
+    position: absolute;
+    z-index: 51;
+    bottom: 10px;
+    color: white;
+    background: rgb(53, 53, 56);
+    opacity: 90%;
+    padding: 20px;
+    text-align: center;
+}
+
+#pictext1 a {
+    color: #ffffff
+}
+
 /* footer */
 
 footer{
