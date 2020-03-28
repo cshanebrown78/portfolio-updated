@@ -205,10 +205,40 @@ header a:hover {
     font-size: 26px;
 }
 
-
-
 #pictext1 a {
     color: #ffffff
+}
+
+/* resume */
+
+.container-resume {
+    max-width: 960px;
+    margin: auto;
+}
+
+embed {
+    width: 800px;
+    height: 1100px;
+}
+
+/* contact */
+
+.container-contact {
+    max-width: 960px;
+    text-align: left;
+    margin: auto;
+    color: #ffffff;
+    font-size: 42px;
+    text-decoration: none;
+}
+
+.container-contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-contact a:hover {
+    color: red;
 }
 
 /* footer */
