@@ -229,7 +229,7 @@ embed {
     margin: auto;
     color: #ffffff;
     font-size: 42px;
-    text-decoration: none;
+    
 }
 
 .container-contact a {
@@ -239,6 +239,16 @@ embed {
 
 .container-contact a:hover {
     color: red;
+}
+
+/* interests */
+
+.container-interests {
+    max-width: 960px;
+    text-align: left;
+    margin: auto;
+    color: #ffffff;
+    font-size: 28px;
 }
 
 /* footer */
