@@ -97,11 +97,11 @@ header a:hover {
     text-align: center;
     color: #ffffff;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: minmax(400px, auto);
-    grid-gap: 4px;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
     max-width: 960px;
-    margin: 20px auto; 
+    margin: 30px auto; 
     
 }
 
@@ -115,38 +115,43 @@ header a:hover {
 
 .about {
     background: #b23814;
+    grid-column: 1/3
 }
 
 .about i {
-    color: #e76037
+    color: #e76037;
 }
 
 .portfolio {
     background: #0082aa;
+    grid-column: 3/5;
 }
 
 .portfolio i {
-    color: #3cc8f3
+    color: #3cc8f3;
 }
 
 .resume {
     background: #799b00;
+    grid-column: 5/7;
 }
 
 .resume i {
-    color: #cef34a
+    color: #cef34a;
 }
 
 .contact {
     background: #bf5700;
+    grid-column: 1/4;
 }
 
 .contact i {
-    color: #facc76
+    color: #facc76;
 }
 
 .interests {
     background: navy;
+    grid-column: 4/7;
 }
 
 .interests i {
