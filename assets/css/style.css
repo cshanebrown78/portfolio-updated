@@ -288,6 +288,12 @@ footer{
 
     #top {
         text-align: center;
+        font-size: 1em;
+        
+    }
+
+    header #top {
+        line-height: 100%;
     }
 
     .heading {
