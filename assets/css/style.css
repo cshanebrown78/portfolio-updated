@@ -302,6 +302,11 @@ footer{
     
     header li{
         padding: 0 5px 0 5px;
+        display: block;
+    }
+
+    nav {
+        float: left;
     }
 
     #pictext1 strong {
